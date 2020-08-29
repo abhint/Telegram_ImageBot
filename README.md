@@ -11,7 +11,7 @@ git clone https://github.com/Abhijith-cloud/Telegram_ImageBot.git
 An example `token.js` file could be:
 ```js
 module.exports ={
-    // past your telegram bot token
+    // past your telegram bot token like
     token: '4964312452:NeN554GslMAAcyM2XrgcSW53nWIUgHG0-zw'
 }
 ```
