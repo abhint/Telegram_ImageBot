@@ -11,7 +11,7 @@ const { url } = require('inspector');
 const Message = require('./messages')
 
 // Bot Token :-)
-const TOKEN  = '1245249643:AAGM2XrgcSW53nWIUslcyNeN55gHG0-zw4M';
+const TOKEN  = 'YOUR_TELEGRAM_BOT_TOKEN';
 
 const options = {
     polling: true
