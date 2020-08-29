@@ -3,7 +3,7 @@
 ## Install
 
 ```sh
-git clone https://github.com/Abhijith-cloud/Telegram_ImageBot/
+git clone https://github.com/Abhijith-cloud/Telegram_ImageBot.git
 ```
 
 ## Usage
