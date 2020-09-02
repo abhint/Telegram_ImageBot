@@ -70,7 +70,7 @@ bot.on('message', (msg) =>{
             const size = sizeOf(path);
             const width = size.width;
             const height = size.height;      
-            if(width > 1280 && height > 720){
+            if(width > 1280 || height > 720){
                 
                 bot.sendDocument(msg.from.id, path);
 
