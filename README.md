@@ -23,4 +23,4 @@ node index.js
 
 ```
 ### Thank you
-[Node.js Telegram Bot API](https://github.com/yagop/node-telegram-bot-api/)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy) [Node.js Telegram Bot API](https://github.com/yagop/node-telegram-bot-api/)
