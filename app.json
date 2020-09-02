@@ -1,4 +1,3 @@
-
 {
     "name": "Telegram_ImageBot",
     "description": "Bot to upload the image to Telegram from direct links",
@@ -13,4 +12,10 @@
         "description": "Your Bot token from @Botfather",
         "value": ""
       }
-     
+     },
+     "buildpacks": [
+      {
+        "url": "heroku/nodejs"
+      }
+    ]
+  }
