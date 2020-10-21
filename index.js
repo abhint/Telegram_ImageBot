@@ -9,6 +9,7 @@ const { from } = require('form-data');
 const Download = require('./image_dl');
 const { url } = require('inspector');
 const Message = require('./messages')
+const Token = require('./token')
 
 // Bot Token :-)
 const TOKEN  = Token.token;
