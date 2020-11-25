@@ -15,11 +15,13 @@ const Token = require('./token')
 const TOKEN  = Token.token;
 
 const options = {
-    polling: true
+    polling: true,
+    port: process.env.PORT
 }
+const url = process.env.APP_URL
 
-
-const bot  = new Telegram(TOKEN, options);
+bot.setWebHook(`${url}/bot${TOKEN}`);
+// const bot  = new Telegram(TOKEN, options);
 
 const msg_option = {
     parse_mode: 'html'
