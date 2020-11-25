@@ -19,7 +19,7 @@
         "APP_URL": {
         "description": "APP URL https://<app-name>.herokuapp.com",
         "value": ""
-      },
+      }
     },
     
      "buildpacks": [
