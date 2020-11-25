@@ -11,8 +11,17 @@
        "BOT_TOKEN": {
         "description": "Your Bot token from @Botfather",
         "value": ""
-      }
-     },
+      },
+        "PORT": {
+        "description": "PORT HEROKU PORT 443",
+        "value": ""
+      },
+        "APP_URL": {
+        "description": "APP URL https://<app-name>.herokuapp.com",
+        "value": ""
+      },
+    },
+    
      "buildpacks": [
       {
         "url": "heroku/nodejs"
