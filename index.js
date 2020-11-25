@@ -1,5 +1,5 @@
-process.env.NTBA_FIX_319 = 1;
-process.env["NTBA_FIX_350"] = 1;
+// process.env.NTBA_FIX_319 = 1;
+// process.env["NTBA_FIX_350"] = 1;
 
 const Telegram = require('node-telegram-bot-api');
 const fs = require('fs');
@@ -18,9 +18,9 @@ const options = {
     polling: true,
     port: process.env.PORT
 }
-const url = process.env.APP_URL
+const web_url = process.env.APP_URL
 const bot  = new Telegram(TOKEN, options);
-bot.setWebHook(`${url}/bot${TOKEN}`);
+bot.setWebHook(`${web_url}/bot${TOKEN}`);
 
 
 const msg_option = {
