@@ -2,8 +2,8 @@
     "name": "Telegram_ImageBot",
     "description": "Bot to upload the image to Telegram from direct links",
     "repository": "https://github.com/Abhijith-cloud/Telegram_ImageBot/",
-    "keywords": ["telegram", 
-        "image-upload", 
+    "keywords": ["telegram",
+        "image-upload",
         "telegram_image_uploader",
         "telegram bot"
     ],
@@ -11,17 +11,9 @@
        "BOT_TOKEN": {
         "description": "Your Bot token from @Botfather",
         "value": ""
-      },
-        "PORT": {
-        "description": "PORT HEROKU PORT 443",
-        "value": ""
-      },
-        "APP_URL": {
-        "description": "APP URL https://<app-name>.herokuapp.com",
-        "value": ""
       }
     },
-    
+
      "buildpacks": [
       {
         "url": "heroku/nodejs"
