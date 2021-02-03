@@ -11,13 +11,26 @@ const { url } = require('inspector');
 const Message = require('./messages')
 const Token = require('./token')
 
-// Bot Token :-)
 const TOKEN  = Token.token;
 
-const bot = new Telegram(
-    TOKEN, {
-        polling: true
-    });
+const options = {
+  webHook: {
+    port: process.env.PORT
+  }
+};
+
+const url = process.env.APP_URL || 'https://<app-name>.herokuapp.com:443';
+const bot = new TelegramBot(TOKEN, options);
+
+
+bot.setWebHook(`${url}/bot${TOKEN}`);
+
+// Bot Token :-)
+
+// const bot = new Telegram(
+//     TOKEN, {
+//         polling: true
+//     });
 
 const msg_option = {
     parse_mode: 'html',
