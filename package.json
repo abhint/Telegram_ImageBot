@@ -7,7 +7,6 @@
     "fs": "^0.0.1-security",
     "image-size": "^0.8.3",
     "node-telegram-bot-api": "^0.50.0",
-    "inspector": "^0.5.0",
     "request": "^2.88.2"
   },
   "devDependencies": {},
