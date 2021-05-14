@@ -1,9 +1,11 @@
 # Telegram ImageBot
 ### Simple URL Uploader which uploads an image to a telegram from direct URLs.only images 😒
-### [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy) [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Abhijith-cloud/Telegram_ImageBot) 
+### [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy) [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/AbhijithNT/Telegram_ImageBot/) 
 ## Install
 ```sh
-git clone https://github.com/Abhijith-cloud/Telegram_ImageBot.git
+
+git clone https://github.com/AbhijithNT/Telegram_ImageBot/.git
+
 ```
 
 ## Usage
