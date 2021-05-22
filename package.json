@@ -1,30 +1,31 @@
 {
-  "name": "telegram_imagebot",
-  "version": "1.0.0",
-  "description": "Simple URL Uploader which uploads an image to a telegram from direct URLs.only images",
-  "main": "index.js",
-  "dependencies": {
-    "fs": "^0.0.1-security",
-    "image-size": "^0.8.3",
-    "node-telegram-bot-api": "^0.50.0",
-    "request": "^2.88.2"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "start": "node index.js",
-    "lint": "eslint ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Abhijith-cloud/Telegram_ImageBot.git"
-  },
-  "keywords": [
-    "telegram-bot"
-  ],
-  "author": "Abhijith N T",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Abhijith-cloud/Telegram_ImageBot/issues"
-  },
-  "homepage": "https://github.com/Abhijith-cloud/Telegram_ImageBot#readme"
-}
+    "name": "telegram_imagebot",
+    "version": "1.0.0",
+    "description": "Simple URL Uploader which uploads an image to a telegram from direct URLs.only images",
+    "main": "index.js",
+    "dependencies": {
+      "fs": "^0.0.1-security",
+      "image-size": "^0.8.3",
+      "node-telegram-bot-api": "^0.50.0",
+      "request": "^2.88.2"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "start": "node index.js",
+      "lint": "eslint ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/AbhijithNT/Telegram_ImageBot.git"
+    },
+    "keywords": [
+      "telegram-bot"
+    ],
+    "author": "Abhijith N T",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/AbhijithNT/Telegram_ImageBot/issues"
+    },
+    "homepage": "https://github.com/AbhijithNT/Telegram_ImageBot#readme"
+  }
+  
